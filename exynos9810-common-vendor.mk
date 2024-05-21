@@ -125,13 +125,11 @@ PRODUCT_PACKAGES += \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
-    libfloatingfeature \
     libgf_in_system_lib \
     libiva_android_hal \
     libprotobuf-cpp-lite.exynos9810 \
     libprotobuf-cpp-full.exynos9810 \
     libqfp_sensortest \
-    libsecaudioinfo \
     libsecnativefeature \
     libsecril-client.exynos9810 \
     libsemnativecarrierfeature \
@@ -145,19 +143,12 @@ PRODUCT_PACKAGES += \
     sensors.grip \
     sensors.sensorhub \
     thermal.exynos9810 \
-    libSamsungPostProcessConvertor \
-    lib_SoundAlive_SRC384_ver320 \
-    lib_soundaliveresampler \
     libaboxpcmdump \
-    libalsautils_sec \
-    libaudio-ril \
     libaudiodebugfs \
     libcnn \
     libcodecdspdump \
     libdatamod \
     libhfd \
-    libaudioroute.exynos9810 \
-    libtinyalsa.exynos9810 \
     android.hardware.gnss@2.0-impl \
     gps.default \
     keystore.mdfpp \
@@ -181,6 +172,7 @@ PRODUCT_PACKAGES += \
     lhd \
     rild \
     vendor.samsung.hardware.gnss@2.0-service \
+    libfloatingfeature \
     mcDriverDaemon
 
 # Dolby Atmos
